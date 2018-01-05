@@ -36,8 +36,8 @@ var p4 = $.plot( $("#plot"), [ d1, { color: '#AAA', data: d2 }], options );
 
 * **data:** Data Array specific for Bubbles chart
    * **[0]:** first data entry
-      * **[0]:** Y-value, location of bubble
-      * **[1]:** X-value, location of value
+      * **[0]:** X-value, location of bubble
+      * **[1]:** Y-value, location of value
       * **[2]:** Size of bubble
 
 * **options:** options for bubbles
